@@ -1,0 +1,17 @@
+/* section1 Home */
+#home{
+	min-height: 500px;
+	background-image: url("../image/section1_bg.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center;
+}
+
+#name_logo{
+	padding-top:200px;
+}
+
+#name_description{
+	color:white;
+	font-weight: normal;
+}
