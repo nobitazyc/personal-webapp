@@ -1,1 +1,45 @@
-#Artical 
+#Artical .content{
+	position:relative;
+}
+.innerArtical{
+	border-radius: 10px;
+	p{
+		font-size:;
+	}
+}
+#artical1{
+	position:absolute;
+	top:100px;
+	left:15%;
+	width:30%;
+	background-color: #F8F8F8;
+	color:#9EB5CA;
+}
+
+#artical1 .arrow_box:after{
+	border-top-color: #F8F8F8;
+}
+
+#artical2{
+	position:absolute;
+	top:30px;
+	left:35%;
+	width:30%;
+	background-color: #9EB5CA;
+	color:white;
+}
+#artical2 .arrow_box:after{
+	border-top-color: #9EB5CA;
+}
+
+#artical3{
+	position:absolute;
+	top:140px;
+	right:15%;
+	width:30%;
+	background-color: #E8F3FA;
+	color:#9EB5CA;
+}
+#artical3 .arrow_box:after{
+	border-top-color: #E8F3FA;
+}
