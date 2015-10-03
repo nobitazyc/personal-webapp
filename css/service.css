@@ -1,7 +1,10 @@
+#Service .content{
+	background-color:#EFEFEF;
+}
 #Service{
-	.content{
-		ul{
-			
-		}
-	}
+	display: inline-block;
+	background-image: url("../image/tax_form_bg.png");
+	background-repeat:no-repeat;
+	background-size:50%;
+	background-position:100% 50%;
 }
