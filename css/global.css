@@ -11,7 +11,9 @@
 .text-center{
 	text-align: center;
 }
-
+body{
+	font-family: "avenir-regular";
+}
 /* global colors */
 .white{
 	color:white;
@@ -37,10 +39,15 @@
 
 /* global font style */
 .light-weight{
+	font-family: "avenir-light";
 	font-weight: lighter;
 }
 .bold-weight{
+	font-family: "avenir-oblique";
 	font-weight: bold;
+}
+.oblique{
+	font-family: "avenir-oblique"
 }
 /* margin */
 .mt0   {margin-top:0px !important;}
@@ -59,6 +66,8 @@
 .mb15  {margin-bottom:15px !important;}
 .mb20  {margin-bottom:20px !important;}
 .mb30  {margin-bottom:30px !important;}
+.mb40  {margin-bottom:40px !important;}
+.mb50  {margin-bottom:50px !important;}
 .mr5   {margin-right:5px !important;}
 .mr10  {margin-right:10px !important;}
 .mr15  {margin-right:15px !important;}
@@ -79,6 +88,7 @@
 .ml70  {margin-left:70px !important;}
 
 /* padding */
+.p0    {padding:0px !important;}
 .pt0   {padding-top:0px !important;}
 .pt5   {padding-top:5px !important;}
 .pt10  {padding-top:10px !important;}
@@ -111,8 +121,13 @@
 	background-image: none;
 	border:none;
 	box-shadow: none;
+	padding-bottom: 10px;
+	transition:0.5s;
 }
-
+.custom-navbar-scrolled{
+	background-color: rgba(0,0,0,0.7);
+	color:#F3F3F3;
+}
 .navbar-default .navbar-nav>li>a  {
 	color:white;
 	text-shadow:none;
@@ -146,4 +161,65 @@
 	border-top-color: #transparent;
 	border-width: 36px;
 	margin-left: -36px;
+}
+
+/* button */
+.btn-primary{
+	background-color:transparent;
+	border:1px solid white;
+	padding:10px 10px;
+	border-radius: 20px;
+	background-image: none;
+	cursor: pointer;
+	display: inline-block;
+	text-shadow:none;
+}
+.btn-primary-reverse{
+	border-color:#ccc;
+	color:#999;
+}
+.btn-small{
+	padding:3px 10px;
+}
+.btn-primary:hover,.btn-primary:active:hover{
+	background-color:rgba(0,0,0,0.2);
+	text-decoration: none;
+	border:1px solid white;
+	color:#ddd;
+}
+.btn-primary-reverse:hover,.btn-primary-reverse:active:hover{
+	background-color:rgba(0,0,0,0.1);
+	text-decoration: none;
+	border:1px solid white;
+	color:#777;
+}
+.btn-secondary{
+	background-color:white;
+	border:none;
+	color:#00426B;
+	padding:10px 10px;
+	border-radius: 20px;
+	background-image: none;
+	cursor: pointer;
+	display: inline-block;
+	text-decoration: none;
+}
+.btn-secondary:hover,.btn-secondary:active:hover{
+	text-decoration: none;
+	background-color: #eee;
+	
+}
+
+/* font */
+@font-face {
+	font-family: avenir-regular;
+	src: url("../fonts/AvenirLTStd-Medium.otf") format("opentype");
+}
+@font-face {
+	font-family: avenir-light;
+	src: url("../fonts/AvenirLTStd-Light.otf") format("opentype");
+}
+@font-face {
+	font-family: avenir-oblique;
+	src: url("../fonts/AvenirLTStd-MediumOblique.otf") format("opentype");
 }

@@ -1,3 +1,10 @@
 #About{
 	background-color: #F3F3F3;
 }
+#About #bio-pic{
+	min-height: 500px;
+	background-image: url("../image/bio_pic.png");
+	background-repeat:no-repeat;
+	background-size:80%;
+	background-position: 0% 100%;
+}
